@@ -2,12 +2,12 @@ package P1;
 
 import org.example.Visitors.BVisitor;
 
-public class B {
+public class BClass {
 
     public String value;
 
-    public B() {
-        value = "i am of class B";
+    public BClass() {
+        value = "i am of class BClass";
     }
 
     public void setValue(String value) {
@@ -23,7 +23,7 @@ public class B {
     }
 
     public String toString() {
-        return "Class B: \n\tvalue:" + value;
+        return "Class BClass: \n\tvalue:" + value;
     }
 
 }

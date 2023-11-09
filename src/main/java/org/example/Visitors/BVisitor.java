@@ -1,11 +1,11 @@
 package org.example.Visitors;
 
-import P1.B;
+import P1.BClass;
 
 public class BVisitor {
     public BVisitor() {
     }
-    public void visit(B b) {
-        b.setValue("i am of class B and i have been visited");
+    public void visit(BClass bClass) {
+        bClass.setValue("i am of class BClass and i have been visited");
     }
 }
